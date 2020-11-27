@@ -1,0 +1,61 @@
+BODY{
+font: 16PX/28PX ARIAL, SANS-SERIF;
+background-color: #eaeaea;
+color: #333333;
+}
+.CONTAINER {
+width: 800px;
+margin: auto;
+background-color: white;
+}
+.HEADER .JUDUL {
+    padding: 20px;
+    font-size: 40PX;
+    font-weight: bold;
+}
+.HEADER ul li {
+    display:inline-block;
+    margin-right: 5PX;
+}
+.HEADER a {
+    color: crimson;
+    text-decoration: none;
+}
+.HEADER a:hover {
+background-color: cyan;
+color: red;
+}
+.HERO {
+height: 300px;
+background-image:url(02.JPG);
+background-size: cover;
+background-position: 0 -150PX;
+border-top: 5px solid crimson;
+border-bottom:5PX SOLID rgb(235, 185, 21);
+}
+.CONTENT {
+    padding: 20px;
+}
+.CONTENT H2 {
+    font-size: 20px;
+}
+.CONTENT .PENULIS {
+    font-size: 10PX;
+    margin-top: -20PX;
+}
+.CONTENT .PENULIS a {
+    color: crimson;
+    text-decoration: none;
+}
+.CONTENT p {
+    margin-bottom: 20px;
+}
+.FOOTER {
+    background-color: #333333;
+    padding: 6px;
+}
+.FOOTER .COPY {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 11px;
+} 
